@@ -1,5 +1,5 @@
 import Vue, { ComponentOptions } from "vue";
-import { CombinedVueInstance } from "../node_modules/vue/types/vue";
+import { CombinedVueInstance } from "vue/types/vue";
 
 type DataDef<Data, Props, V> = Data | ((this: Readonly<Props> & V) => Data);
 
